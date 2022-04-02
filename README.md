@@ -10,7 +10,7 @@
 
 该文档将会存放在[新文档根目录]/[YYYY]/[MM]
 
-适用范围:本插件基于Windows10运行环境开发,在obsidian 0.13.14 版本下测试运行正常,没有与其他插件的依赖关系.
+适用范围:本插件基于Windows10运行环境开发,在obsidian 0.14.2 版本下测试运行正常,没有与其他插件的依赖关系.
 
 ## english
 Download this plug-in
