@@ -177,7 +177,7 @@ class 规则1模态框 extends Modal {
 				var 创建文件名 = 全路径 + "\\" + 输入文件名 + 时间后缀 + ".md";
 				
 
-				var 文档内容 = await mythis.app.vault.getAbstractFileByPath(文档模板).unsafeCachedData;
+				var 文档内容 = await mythis.app.vault.read(mythis.app.vault.getAbstractFileByPath(文档模板));
 				文档内容=替换内容(文档内容);
 				mythis.app.vault.create(创建文件名,文档内容);
 		
